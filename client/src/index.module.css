@@ -1,0 +1,49 @@
+* {
+  outline: none;
+}
+
+html {
+  height: 100%;
+  min-width: 300px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Arial', sans-serif !important;
+  width: 100%;
+  /* height: auto; */
+  min-height: 10vh;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #ff4500;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ff4500;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ff4500;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ff4500;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ff4500;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #ff4500;
+}

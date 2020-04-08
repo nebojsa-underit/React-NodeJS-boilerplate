@@ -1,0 +1,26 @@
+{
+  "name": "mediabiro",
+  "version": "1.0.0",
+  "description": "MediaBiro is application for regional sharing of news. It enables users to create their own account and access the content that is uploaded by admin users. Regular user can read about the events, download pictures and videos contained in post. Application will also provide statistics for admin users(how many downloads for )",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently - kill-others \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nebojsa-underit:Pain8067@github.com/nebojsa-underit/mediabiro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nebojsa-underit/mediabiro/issues"
+  },
+  "homepage": "https://github.com/nebojsa-underit/mediabiro#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
